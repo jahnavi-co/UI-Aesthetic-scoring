@@ -5,7 +5,7 @@
 ![Originality](https://img.shields.io/badge/Plagiarism-11%25-brightgreen)
 
 ## 📌 Abstract
-Evaluating the aesthetics of user interfaces (UIs) is challenging because people's aesthetic sensibilities vary significantly based on their age, gender, occupation, and personal tastes. Most automated UI evaluation models produce a single average global score, ignoring individual differences. 
+Evaluating the aesthetics of user interfaces (UIs) is challenging because people's aesthetic perception vary significantly based on their age, gender, occupation, and personal tastes. Most automated UI evaluation models produce a single average global score, ignoring individual differences. 
 
 This project proposes a **Personalised Aesthetic Score Prediction System for User Interfaces using Federated Learning**. We collected a custom dataset of 100 desktop and mobile user interfaces across various domains, annotated with aesthetic ratings from 100 participants. The framework uses **EfficientNet-B0** and Federated Learning (FedAvg) to predict aesthetic scores while keeping user data local to each demographic group, ensuring privacy. We also developed an LLM-based aesthetic evaluation module using **Qwen3-VL-235B** for comparative analysis.
 
